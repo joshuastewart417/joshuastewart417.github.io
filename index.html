@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>Joshua Stewart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./styles/main.css">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-opacity-min w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div id="home" class="bgimg-1"> 
+  <video id="video2" preload="" autoplay="" muted="" playsinline="" loop="">
+  <source src="./video/BWClouds.webm" type="video/webm">
+  <source src="./video/BWClouds.mp4" type="video/mp4">
+  </video> 
+      <div id="videoMessage2" class="styling">
+          <img src="./images/JSLogo.png" id="logo"/>
+      </div>
+  </div>
+
+<!-- Container (About Section) -->
+<div class="w3-container" id="about">
+  <div class="about_wrapper">
+    <h2 class="w3-center" id="about_heading">About Me</h3>
+    <p class="w3-center"><em>{Always learning, always improving}</em></p>
+  </div>
+  
+  <div class="w3-row" id="about_imgbody">
+    <div class="w3-col m6 w3-center w3-padding-large" id="profile">
+      <img src="./images/profile.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    
+    <div class="w3-col m6 w3-padding-large">
+      <p>
+        Hey there! My name is Joshua and I'm a full stack software developer. I'm a recent graduate from Nashville Software School's intensive web development program 
+        where I learned the process of planning, designing, building (and very often troubleshooting) front-end and back-end applications. I'm a life long learner who has worn 
+        many hats from healthcare practitioner to network television editor. More than anything though, I define myself by my love for learning and problem solving.
+      </p>
+      <h4 id="exp_heading">Software Experience</h4>
+      <p>Completed intensive full-stack software development program focusing on individual and team application development to simulate real world expectations and deadlines using the following technologies, workflow, and scrum framework implementation all in a remote environment:</p>
+      <ul class="nssList">
+        <li>Built browser-based applications using HTML5, CSS3, React, and Javascript for front-end development</li>
+        <li>Utilized JSON server for implementing/maintaining client side databases</li>
+        <li>Created server-side databases utilizing SQL querying, .Net framework, and C# programming language</li>
+        <li>Focus on CRUD functionality in all projects</li>
+        <li>Github team workflow throughout every stage of app development</li>
+        <li>Managed and created issue tickets with team retrospectives</li>
+        <li>Entity relationship diagramming and wireframing when planning applications</li>
+        <li>Use of Zoom & Slack for team planning and active troubleshooting</li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-light-grey w3-padding-16">
+  <h3 class="w3-center" id="tech_heading">TECH STACK</h3>
+
+   <div class="techstack_container">
+    <div class="ts-image">
+      <img title="Github" class="techstack_logo" src="/images/github-icon.svg"/>
+      <p>Github</p>
+    </div>
+    <div class="ts-image">
+      <img title="Javascript" class="techstack_logo" src="/images/javascript.svg"/>
+      <p>Javascript</p>
+    </div>
+    <div class="ts-image">
+      <img title="React" class="techstack_logo" src="/images/react.svg"/>
+      <p>ReactJS</p>
+    </div>
+    <div class="ts-image">
+      <img title="HTML5" class="techstack_logo" src="/images/html-5.svg"/>
+    </div>
+    <div class="ts-image">
+      <img title="CSS3" class="techstack_logo" src="/images/css-3.svg"/>
+    </div>
+    <div class="ts-image">
+      <img title=".NET" class="techstack_logo" src="/images/dotnet.svg"/>
+    </div>
+    <div class="ts-image">
+      <img title="NPM" class="techstack_logo" src="/images/npm-icon.svg"/>
+      <p>NPM</p>
+    </div>
+    <div class="ts-image">
+      <img title="JSON" class="techstack_logo" src="/images/json.svg"/>
+      <p>JSON</p>
+    </div>
+    <div class="ts-image">
+      <img title="CSharp" class="techstack_logo" src="/images/csharp-logo.png"/>
+      <p>C Sharp</p>
+    </div>
+    <div class="ts-image">
+      <img title="Adobe Photoshop" class="techstack_logo" src="/images/adobe-photoshop-logo.png"/>
+      <p>Photoshop</p>
+    </div>
+  </div>
+</div>
+<br>
+
+</br>
+<div class="bgimg-2 w3-center  w3-padding-16" id="portfolio">
+  <h3 class="portfolio_header w3-center">PORTFOLIO</h3>  
+  <div class="portfoliobtn_wrapper">
+    <div class="portfolio_btn">
+      <a href="https://github.com/joshuastewart417/Stitch-Saver" class="stitchsaver" title="Stitch Saver">
+        <img src="./images/SS-Logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Stitch Saver">
+      </a>
+      <p>Stitch Saver is a front-end application using Javascript, React, JSON, and the <a href="https://lokeshdhakar.com/projects/color-thief/">color-thief</a> Javascript tool. Stitch Saver takes user input images and breaks them down into their dominant colors, creating a color palette and matching those colors to the closest matching stitching thread.The user is able to save and keep their individual images in a project list for later reference.</p>
+    </div>
+
+    <div class="portfolio_btn">
+      <a href="https://github.com/joshuastewart417/CryptidCartographer" class="cryptidcartographer" title="Cryptid Cartographer">
+        <img src="./images/CC-Logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cryptid Cartographer">
+      </a>
+      <p>Cryptid Cartographer is a full-stack application using Javascript/React on client-side and C#/.Net/SQL on server-side. Cryptid Cartographer gives users a place to post their sightings of monsters, aliens, and unknown creatures better known as "cryptids". Users can post their sightings, track sightings that they find interesting, and search for sightings by US states.</p>
+    </div>
+
+    <div class="portfolio_btn">
+      <a href="https://github.com/nss-day-cohort-51/tabloidfullstack-storm-petrels" class="tabloid" title="Tabloid">
+        <img src="./images/Tabloid-Logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tabloid">
+      </a>
+      <p>Tabloid is a full-stack application that allows user to post articles to a "feed", tag their articles, as well as liking and following other user posts. This was a group project sprint at Nashville Software School to further our understanding of the full-stack development process, team planning of projects, and use of SCRUM framework while working within a fixed timeframe.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <video class="w3-image" id="contact_mp4" preload="" autoplay="" muted="" playsinline="" loop="">
+        <source src="./video/contact.mp4" type="video/mp4">
+      </video> 
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Bowling Green, KY<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (205) 493-2124<br>
+      </div>
+      <form id="contact_form" action="https://formspree.io/f/mdobdapa" method="POST" target="">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://github.com/joshuastewart417"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/JStewDev"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/joshua-c-stewart/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+<script type="module" src="/scripts/main.js"></script>
+</body>
+</html>
